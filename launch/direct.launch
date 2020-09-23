@@ -1,0 +1,18 @@
+<launch>
+<node name="thumb_controller" pkg="TP_RI_3" type="direct_kin_service.py">
+	<param name="group_name" value="thumb"/>
+</node>
+<node name="index_controller" pkg="TP_RI_3" type="direct_kin_service.py">
+	<param name="group_name" value="Index"/>
+</node>
+<node name="middle_controller" pkg="TP_RI_3" type="direct_kin_service.py">
+	<param name="group_name" value="Middle"/>
+</node>
+<node name="ring_controller" pkg="TP_RI_3" type="direct_kin_service.py">
+	<param name="group_name" value="ring"/>
+</node>
+<node name="pinky_controller" pkg="TP_RI_3" type="direct_kin_service.py">
+	<param name="group_name" value="pinky"/>
+</node>
+
+</launch>
